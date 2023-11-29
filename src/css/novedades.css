@@ -27,3 +27,15 @@ article li{
     padding: 0 5px;
     cursor: pointer;
 }
+
+@media only screen and (max-width : 320px) {
+    .section-down :first-child {
+        display: none;
+    }
+    .section-down :last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

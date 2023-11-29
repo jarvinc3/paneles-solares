@@ -4,6 +4,10 @@ nav {
     gap: 50px;
 }
 
+.list {
+    display: none;
+}
+
 
 .section-up {
     margin-top: 30px;
@@ -106,3 +110,51 @@ nav {
 .section-down p {
     text-align: center;
 }
+
+
+
+@media only screen and (max-width : 320px) {
+
+
+    .section-up {
+        padding-right: 100px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section-links {
+        display: none;
+    }
+
+    .heart-container {
+       width: 50px;
+    }
+
+    .heart-container :last-child {
+        display: none;
+    }
+
+    .section-icons {
+        gap: 0px;
+        max-width: 200px;
+    }
+
+    .icons :last-child {
+        background-color: transparent;
+        
+    }
+    
+    .search {
+        display: none;
+    }
+
+    .list {
+        display: flex;
+    }
+
+    
+  }
+  

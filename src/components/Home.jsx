@@ -5,6 +5,7 @@ import Novedades from "./Novedades";
 
 export default function Home() {
   return (
+    
     <section className="principal">
       <header>
         <Nav />
@@ -14,5 +15,6 @@ export default function Home() {
         <Cards />
       </main>
     </section>
+    
   );
 }
