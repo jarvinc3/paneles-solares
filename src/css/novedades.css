@@ -1,0 +1,29 @@
+
+article {
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    gap: 30px;
+    color: white;
+}
+
+article h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+article ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+article li{
+    border: solid white 3px;
+    padding: 0 5px;
+    cursor: pointer;
+}
